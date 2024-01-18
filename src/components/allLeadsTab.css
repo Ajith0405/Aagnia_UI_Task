@@ -1,0 +1,133 @@
+/* Leads Navbar Section */
+    input{
+        border: none;
+        outline: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .search_input{
+        position: relative;
+        display: flex;
+        align-items: center;
+        border: 1px solid gray;
+        padding: 5px 30px;
+        border-radius: 20px;
+    }
+    .search_button{
+        position: absolute;
+        left: 200px;
+        cursor: pointer;
+    }
+    h4{
+        color: #52D3D8;
+    }
+    p{
+        color: darkgray;
+    }
+    .addNewButton{
+        background-color: #65B741;
+        padding: 5px 10px ;
+        border: none;
+        border-radius: 20px;
+        font-weight: 700;
+        color: #ffff;
+    }
+
+    .rightMenu{
+        display: flex;
+        
+    }
+    .filterIcon, .searchIcon{
+        color: gray;
+        cursor: pointer;
+    }
+
+/* Leads Tabel Heading Section */
+    .tableHead{
+        text-align: center;
+    }
+    .tableHeadRow{
+        padding: 10px 0px;
+    }
+    th{
+        font-size: small;
+        font-weight: 700;
+        color: gray;
+    }
+/* Leads Tabel Body Section */
+    p{
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    h6{
+        padding:0px 0px 5px 0px;
+        margin: 0;
+        font-weight: 700;
+        color: gray;
+    }
+    .leads_row{
+        text-align: center;
+        padding: 12px 0px 12px 20px;
+    }
+    .company_det{
+        display: flex;
+        align-items: center;
+    }
+    .project_tag{
+        text-align: left;
+        font-weight: 700;
+        color: gray;
+    }
+    .contact_person{
+        text-align: start;
+        padding-left: 52px;
+    }
+
+    .statusDot{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+    .status_top{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 85px;
+    }
+    .follow_date{
+        padding-right: 10px;
+    }
+    .actions_main{
+        display:flex;
+        align-items: center;
+    }
+    .actions{
+        display: flex;
+        gap: 12px;
+        padding-left: 80px;
+    }
+    .actionIcons{
+        cursor: pointer;
+        color: gray;
+    }
+    .actionIcons:hover{
+        color: #7FC7D9;
+    }
+
+/* Load More Section */
+    .load_more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .load_more_button{
+        border: 1px solid lightgray;
+        padding: 5px 20px;
+        color: gray;
+        border-radius: 20px;
+        font-weight: 600;
+    }

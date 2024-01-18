@@ -1,0 +1,90 @@
+/* Notification Css & animations */
+    .notification_border{
+        position: relative;
+        padding: 5px 6px;
+        border: 1px solid lightgray;
+        border-radius: 20px ;
+    }
+    .redDot{
+        position: absolute;
+        top: 3px;
+        left: 28px;
+        width: 8px;
+        height: 8px;
+        background-color: red;
+        border-radius: 20px;
+    }
+    .notificationIcon:hover {
+        animation: shakeAnimation 2s ease-in-out infinite; 
+      }
+    
+      @keyframes shakeAnimation {
+        0%, 100% {
+            transform: translateX(0);
+          }
+          20%, 40%, 60%, 80% {
+            transform: translateX(-5px);
+          }
+          30%, 50%, 70% {
+            transform: translateX(5px);
+          }
+      }
+
+    .navbar_profile_notification{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+/* Navbar Profile Css */
+    .profile_content {
+        padding: 0;
+        margin-left: 5px;
+    }
+    .name{
+        padding: 0;
+        margin: 0;
+        font-size: small;
+        font-weight: 650;
+        color: darkgray;
+    }
+    .welcome{
+        padding: 0;
+        margin: 0;
+        font-size: small;
+        color: darkgray;
+    }
+
+/* Navbar Setting Css & Animation */
+    .navbar_setting{
+        position: relative;
+        padding: 5px 6px;
+        border: 1px solid lightgray;
+        border-radius: 19px ;
+    }
+    .settingIcon:hover {
+        animation: rotateAnimation 2s linear infinite ; 
+      }
+    
+    @keyframes rotateAnimation {
+        0% {
+          transform: rotate(0deg);
+        }
+        25% {
+          transform: rotate(90deg);
+        }
+        50%{
+            transform: rotate(90deg);
+        }
+        75%{
+            transform: rotate(-90deg);
+        }
+        100%{
+            transform: rotate(-90deg);
+        }
+      }
+
+/* Cursor Pointer Css */
+  .navbar_logo, .navbar_profile_notification, .avatar_profile, .navbar_setting{
+    cursor: pointer;
+}

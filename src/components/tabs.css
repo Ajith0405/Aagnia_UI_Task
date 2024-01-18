@@ -1,0 +1,34 @@
+.tabsMain{
+    display: flex;
+    
+}
+.tab1, .tab2, .tab3{
+    background-color:lightgray;
+    padding: 5px 25px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.tab1{
+    background-color: white;
+    border-radius: 0px 25px 0px 0px;
+}
+.tab2{
+    border-radius: 25px 25px 0px 0px;
+}
+.tab3{
+    border-radius: 25px 25px 0px 0px;
+}
+.close_button{
+    color: gray;
+}
+.close_button:hover{
+    color:red;
+    cursor: pointer;
+}
+h5{
+    font-size: small;
+    font-weight:700;
+    color: #45474B;
+    padding: 0px 10px 0px 0px;
+}

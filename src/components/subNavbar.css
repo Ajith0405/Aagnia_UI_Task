@@ -1,0 +1,58 @@
+.subNabarMain{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.lead_content,.accounts_content, .contacts_content, .tasks_content{
+    margin: auto 0px auto 10px ;
+}
+.leadHead, .leadPara, .accountsHead, .accountsPara, .contactsHead, .contactsPara, .tasksHead, .tasksPara{
+    padding: 0;
+    margin:0;
+}
+.leadHead, .accountsHead, .contactsHead, .tasksHead{
+    font-size: medium;
+    font-weight: 600;
+    color: #ffff;
+}
+.leadPara, .accountsPara, .contactsPara, .tasksPara{
+    font-size: small;
+    color: #ffff;
+}
+.leadMain, .accountsMain, .contactsMain, .tasksMain{
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.active{
+    background-color: #52D3D8;
+}
+.leadsIcon{
+    
+        padding: 8px 9px;
+        border: 3px solid lightgray;
+        border-radius: 25px ;
+}
+.accountsIcon{
+    padding: 8px 12px;
+    border: 3px solid lightgray;
+    border-radius: 50% ;
+}
+.conatctsIcon{
+    padding: 8px 12px;
+    border: 3px solid lightgray;
+    border-radius: 50% ; 
+}
+.tasksIcon{
+    padding: 8px 12px;
+    border: 3px solid lightgray;
+    border-radius: 50% ; 
+} 
+
+.leadMain, .accountsMain, .contactsMain, .tasksMain{
+    cursor: pointer;
+}
+
+.accountsMain:hover, .contactsMain:hover, .tasksMain:hover{
+    background-color: #52D3D8;
+}
