@@ -93,17 +93,8 @@ const AllLeadsTab = () => {
             status: "Won",
             status_indicate:'lightGreen',
             foll_date: "20 Jan 2022",
-        },
-        {
-            id: 9,
-            img_url: 'https://images.unsplash.com/photo-1636936291087-2972edf08f14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            comp_details: "Aagnia Technology private limited",
-            pro_tag: "Ecommerce",
-            Cont_person: "Karthikeyan",
-            status: "Won",
-            status_indicate:'lightGreen',
-            foll_date: "20 Jan 2022",
-        },
+        }
+       
     ]
 
     return (
